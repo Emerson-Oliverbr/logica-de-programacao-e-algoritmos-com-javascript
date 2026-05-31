@@ -4,7 +4,7 @@ let mensagem = null;
 if(nota >= 80) {
     mensagem = "Parabéns voce foi aprovado!";
 }
-else if(nota < 80 && nota >= 60) {
+else if(nota >= 60) {
     mensagem = "Voce está na lista de espera!";    
 }
 else {
